@@ -9,12 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.5.5",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/material-next": "^6.0.0-alpha.80",
     "@types/node": "18.15.11",
     "@types/react": "18.0.33",
     "@types/react-dom": "18.0.11",
+    "file-saver": "^2.0.5",
+    "formik": "^2.2.9",
+    "framer-motion": "^10.11.2",
+    "html-pdf": "^3.0.1",
     "next": "13.3.0",
+    "pdf-lib": "^1.17.1",
+    "puppeteer": "^19.8.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "5.0.4"
+    "typescript": "5.0.4",
+    "yup": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/html-pdf": "^3.0.0"
   }
 }
