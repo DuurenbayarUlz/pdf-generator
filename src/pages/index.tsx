@@ -178,7 +178,16 @@ const App = () => {
               </div>
             </div>
 
-            <button type="submit" disabled={isSubmitting}>
+            <button
+              type="submit"
+              disabled={isSubmitting}
+              style={{
+                border: "1px solid black",
+                height: "30px",
+                borderRadius: "15px",
+                backgroundColor: "white",
+              }}
+            >
               {isSubmitting ? "Generating Report..." : "Generate Report"}
             </button>
           </Form>
