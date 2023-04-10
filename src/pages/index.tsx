@@ -94,10 +94,13 @@ const App = () => {
                   height: "30px",
                   borderRadius: "15px",
                   border: "1px solid black",
-                  width: "100%",
+                  width: "200px",
+                  paddingLeft: "10px",
                 }}
               />
-              <ErrorMessage name="measurement0" />
+              <div style={{ color: "red" }}>
+                <ErrorMessage name="measurement0" />
+              </div>
             </div>
 
             <div
@@ -116,10 +119,13 @@ const App = () => {
                   height: "30px",
                   borderRadius: "15px",
                   border: "1px solid black",
-                  width: "100%",
+                  width: "200px",
+                  paddingLeft: "10px",
                 }}
               />
-              <ErrorMessage name="measurement1" />
+              <div style={{ color: "red" }}>
+                <ErrorMessage name="measurement1" />
+              </div>
             </div>
 
             <div
@@ -138,10 +144,13 @@ const App = () => {
                   height: "30px",
                   borderRadius: "15px",
                   border: "1px solid black",
-                  width: "100%",
+                  width: "200px",
+                  paddingLeft: "10px",
                 }}
               />
-              <ErrorMessage name="measurement2" />
+              <div style={{ color: "red" }}>
+                <ErrorMessage name="measurement2" />
+              </div>
             </div>
 
             <div
@@ -160,10 +169,13 @@ const App = () => {
                   height: "30px",
                   borderRadius: "15px",
                   border: "1px solid black",
-                  width: "100%",
+                  width: "200px",
+                  paddingLeft: "10px",
                 }}
               />
-              <ErrorMessage name="measurement3" />
+              <div style={{ color: "red" }}>
+                <ErrorMessage name="measurement3" />
+              </div>
             </div>
 
             <button type="submit" disabled={isSubmitting}>

@@ -42,7 +42,6 @@ function generateReportHtml(measurements: Measurement[]) {
     <html>
       <head>
         <style>
-          /* Styles for report */
           .report-container {
             max-width: 800px;
             margin: 0 auto;
@@ -83,7 +82,7 @@ function generateReportHtml(measurements: Measurement[]) {
             padding: 10px;
           }
         </style>
-        <title>${measurements[0].value} Report</title>
+        <title>Pinecone Student Report</title>
       </head>
       <body>
         <div class="report-container">
